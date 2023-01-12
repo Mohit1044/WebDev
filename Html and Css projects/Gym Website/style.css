@@ -1,0 +1,94 @@
+body{
+    font-family: 'Yeon Sung', cursive;
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    background: url(dark-1839088_1280.jpg);
+}
+.left{
+    display: inline-block;
+   /* border: 2px solid red; */
+    position: absolute;
+    left: 60px;
+    top: 20px;
+}
+.left img{
+    width: 35px;
+    padding: 5px 10px;
+    margin-left: 10% ;
+}
+.left div{
+    line-height: 15px;
+    font-size: 26px;
+    text-align: center;
+}
+.mid{
+    display: block;
+    width: 33%;
+    margin:22px auto;
+   /* border: 2px solid green; */
+}
+.navbar{
+    display: inline-block;
+}
+.navbar li{
+    display: inline-block;
+    font-size: 17px;
+}
+.navbar li a{
+    color: white;
+    text-decoration: none;
+    padding: 24px 13px;
+}
+.navbar li a:hover,.navbar li a.active{
+    color:grey;
+    text-decoration: underline;
+}
+.right{
+    position: absolute;
+    right: 34px;
+    top: 28px;
+    display: inline-block;
+    /*border: 2px solid yellow;*/
+}
+.btn{
+    font-family: 'Yeon Sung', cursive;
+    margin: 0 9px;
+    background-color: black;
+    color: white;
+    padding: 4px 14px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    font-size: 15px;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: rgb(82, 78, 78);
+}
+.container{
+   /* border: 2px solid white; */
+    margin: 106px 80px;
+    margin-left: 55%;
+    padding: 75px;
+    width: 33%;
+    border-radius: 2px;
+}
+.form-group input{
+    font-family: 'Yeon Sung', cursive;
+    text-align: center;
+    display: block;
+    width: 300px;
+    padding: 1px;
+    border: 2px solid black;
+    margin: 11px auto;
+    font-size: 20px;
+    border-radius: 8px;
+}
+.container h1{
+    text-align: center;
+}
+.container button{
+    display: block;
+    width: 69%;
+    margin:  20px auto;
+}
